@@ -14,7 +14,7 @@ export default function Clients() {
                 {client.map((c, index) => (
                     <div id='testimonial-box' data-aos='zoom-in' key={index} className=' w-full bg-white p-12 flex flex-col  justify-center items-start  cursor-pointer rounded-lg hover:bg-red-100    gap-8'>
                         <div className='flex justify-start items-center w-full gap-4 '>
-                            <img src={c.image} className='w-[70px] ' />
+                            <img src={c.image} alt='clientimg' className='w-[70px] ' />
                             <div className='flex flex-col justify-center items-start gap-1'>
                                 <h1 className='text-xl text-black font-semibold whitespace-nowrap '>{c.name}</h1>
                                 <h1 className='text-xl text-slate-600 font-semibold whitespace-nowrap'>{c.para}</h1>

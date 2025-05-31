@@ -1,6 +1,6 @@
 import React from 'react'
 import { property } from './PropertiesData'
-import { FaBath, FaShareAlt, FaBed, FaUserCircle,FaHeart, FaPlus , FaMapMarkerAlt, FaVideo, FaCamera, FaChartArea } from 'react-icons/fa'
+import { FaBath, FaShareAlt, FaBed, FaUserCircle,FaHeart, FaPlus , FaMapMarkerAlt, FaVideo, FaCamera } from 'react-icons/fa'
 import { MdSpaceDashboard } from "react-icons/md";
 
 
